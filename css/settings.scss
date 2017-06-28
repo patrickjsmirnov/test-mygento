@@ -1,0 +1,79 @@
+
+// general vars
+$wrapperWidth: 1790px;
+
+
+// colors
+$colorFontHeader: #f1f1f1;
+$colorWhite: #fff;
+$colorBlackText: #202020;
+
+
+// fonts
+$fontOpenSansRegular: "OpenSansRegular";
+$fontOpenSansLight: "OpenSansLight";
+
+$fontPTSansRegular: "PTSansRegular";
+$fontPTSansBold: "PTSansBold";
+
+$fontNexaLight: 'NexaLight';
+
+
+// OpenSans
+
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url("../fonts/OpenSans/OpenSansRegular/OpenSansRegular.eot");
+  src: url("../fonts/OpenSans/OpenSansRegular/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/OpenSans/OpenSansRegular/OpenSansRegular.woff") format("woff"),
+  url("../fonts/OpenSans/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "OpenSansLight";
+  src: url("../fonts/OpenSans/OpenSansLight/OpenSansLight.eot");
+  src: url("../fonts/OpenSans/OpenSansLight/OpenSansLight.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/OpenSans/OpenSansLight/OpenSansLight.woff") format("woff"),
+  url("../fonts/OpenSans/OpenSansLight/OpenSansLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+
+// PTSans
+
+@font-face {
+  font-family: "PTSansRegular";
+  src: url("../fonts/PTSans/PTSansRegular/PTSansRegular.eot");
+  src: url("../fonts/PTSans/PTSansRegular/PTSansRegular.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/PTSans/PTSansRegular/PTSansRegular.woff") format("woff"),
+  url("../fonts/PTSans/PTSansRegular/PTSansRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "PTSansBold";
+  src: url("../fonts/PTSans/PTSansBold/PTSansBold.eot");
+  src: url("../fonts/PTSans/PTSansBold/PTSansBold.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/PTSans/PTSansBold/PTSansBold.woff") format("woff"),
+  url("../fonts/PTSans/PTSansBold/PTSansBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+// Nexa
+
+@font-face {
+  font-family: 'NexaLight';
+  src: url('../fonts/Nexa/NexaLight/NexaLight.eot');
+  src: url('../fonts/Nexa/NexaLight/NexaLight.eot') format('embedded-opentype'),
+  url('../fonts/Nexa/NexaLight/NexaLight.woff2') format('woff2'),
+  url('../fonts/Nexa/NexaLight/NexaLight.woff') format('woff'),
+  url('../fonts/Nexa/NexaLight/NexaLight.ttf') format('truetype'),
+  url('../fonts/Nexa/NexaLight/NexaLight.svg#NexaLight') format('svg');
+}
